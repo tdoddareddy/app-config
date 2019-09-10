@@ -13,11 +13,3 @@ spring:
       ddl-auto: update
  
 greetingLanguage: English
----
-spring: 
-  profiles: dev
-greetingLanguage: French
----
-spring: 
-  profiles: kubernetes
-greetingLanguage: Spanish
