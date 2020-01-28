@@ -5,6 +5,8 @@ management:
         include: "*"
  
 spring: 
+  profiles:
+    active: dev
   jpa: 
     properties: 
       hibernate: 
@@ -13,6 +15,7 @@ spring:
       ddl-auto: update
  
 greetingLanguage: English
+
 ---
 spring: 
   profiles: dev
